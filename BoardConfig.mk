@@ -85,7 +85,7 @@ RECOVERY_SDCARD_ON_DATA := true
 TARGET_RECOVERY_QCOM_RTC_FIX := true
 TW_BRIGHTNESS_PATH := "/sys/class/leds/lcd-backlight/brightness"
 #TW_CUSTOM_CPU_TEMP_PATH := /sys/class/thermal/thermal_zone4/temp
-
+TW_CUSTOM_CPU_TEMP_PATH := /sys/devices/virtual/thermal/thermal_zone7/temp
 TW_DEFAULT_BRIGHTNESS := 1023
 TW_EXCLUDE_DEFAULT_USB_INIT := true
 TW_EXCLUDE_SUPERSU := true
